@@ -17,6 +17,17 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: "arial", 'Times New Roman', Times, serif;
+    line-height: 1.5;
+}
+@media print{
+    html, body{
+
+    -webkit-print-color-adjust:exact ;
+    overflow: hidden;
+    -webkit-shadow:none ;
+    box-shadow: none;
+
+    }
 }
 .container{
     background-color: var(--cont);
